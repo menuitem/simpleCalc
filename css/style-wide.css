@@ -1,11 +1,13 @@
-body, input, select, textarea {
+body {
 	font-size: 15pt;
 	letter-spacing: 0.035em;
 	line-height: 1.75em;
 }
 
 h1 {
-	font-size: 1.5em;
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 1em;
 }
 
 h2 {
@@ -18,45 +20,34 @@ h2 {
 	padding: 0.65em 2.25em 0.65em 2.25em;
 }
 
-/* Header */
+#header {
+	margin-top: 3em;
+}
 
-	#header {
-		position: relative;
-		margin-top: 3em;
-	}
+#nav {
+	text-align: right;
+}
 
-/* Nav */
+#nav a {
+	margin-left: 2em;
+}
 
-	#nav {
-		position: absolute;
-		top: 0;
-		right: 0;
-	}
+#hero {
+	border-radius: 0.5em;
+	margin: 3em 0 3em 0;
+	padding: 4em 0 4em 0;
+}
 
-	#nav a {
-		margin-left: 2em;
-	}
+#hero h2 {
+	font-size: 2.5em;
+	margin-bottom: 1em;
+}
 
-/* Hero */
+#hero p {
+	font-size: 1.25em;
+	margin-bottom: 1.75em;
+}
 
-	#hero {
-		border-radius: 0.5em;
-		margin: 3em 0 3em 0;
-		padding: 4em 0 4em 0;
-	}
-
-	#hero h2 {
-		font-size: 2.5em;
-		margin-bottom: 1em;
-	}
-
-	#hero p {
-		font-size: 1.25em;
-		margin-bottom: 1.75em;
-	}
-
-/* Footer */
-
-	#footer {
-		margin: 3em 0 3em 0;
-	}
+#footer {
+	margin: 3em 0 3em 0;
+}

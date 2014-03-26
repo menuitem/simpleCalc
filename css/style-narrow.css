@@ -1,4 +1,4 @@
-body, input, select, textarea {
+body {
 	font-size: 14pt;
 	letter-spacing: 0.035em;
 	line-height: 1.5em;
@@ -22,67 +22,34 @@ h2 {
 	padding: 0.75em 2em 0.75em 2em;
 }
 
-/* Header */
+#header {
+	margin-top: 3em;
+}
 
-	#header {
-		position: relative;
-		margin-top: 2em;
-	}
+#nav {
+	text-align: right;
+}
 
-/* Nav */
+#nav a {
+	margin-left: 2em;
+}
 
-	#nav {
-		position: absolute;
-		top: 0;
-		right: 0;
-	}
+#hero {
+	border-radius: 0.5em;
+	margin: 2em 0 2em 0;
+	padding: 3em 0 3em 0;
+}
 
-	#nav a {
-		margin-left: 2em;
-	}
+#hero h2 {
+	font-size: 2.5em;
+	margin-bottom: 0.75em;
+}
 
-/* Hero */
+#hero p {
+	font-size: 1.25em;
+	margin-bottom: 1.5em;
+}
 
-	#hero {
-		border-radius: 0.5em;
-		margin: 2em 0 2em 0;
-		padding: 3em 2em 3em 2em;
-	}
-
-	#hero h2 {
-		font-size: 2.5em;
-		margin-bottom: 0.75em;
-	}
-
-	#hero p {
-		font-size: 1.25em;
-		margin-bottom: 1.5em;
-	}
-
-/* Footer */
-
-	#footer {
-		margin: 3em 0 3em 0;
-	}
-
-/* Overlays */
-
-	#leftPanelButton .toggle,
-	#rightPanelButton .toggle {
-		display: block;
-		background: rgba(71,86,91,0.9);
-		text-align: center;
-		width: 80px;
-		height: 60px;
-		line-height: 60px;
-		font-size: 1.25em;
-		color: #fff;
-	}
-
-	#leftPanelButton .toggle {
-		border-radius: 0 0 0.5em 0;
-	}
-
-	#rightPanelButton .toggle {
-		border-radius: 0 0 0 0.5em;
-	}
+#footer {
+	margin: 3em 0 3em 0;
+}

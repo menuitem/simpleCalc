@@ -1,4 +1,4 @@
-body, input, select, textarea {
+body {
 	font-size: 12.5pt;
 	line-height: 1.5em;
 }
@@ -13,6 +13,10 @@ h2 {
 	margin-bottom: 0.5em;
 }
 
+section {
+	padding-bottom: 2em;
+}
+
 .container {
 	padding: 0 1em 0 1em;
 }
@@ -24,73 +28,32 @@ h2 {
 	width: 100%;
 }
 
-/* Header */
+#header {
+	margin-top: 2.5em;
+	text-align: center;
+}
 
-	#header {
-		margin-top: 4.5em;
-		text-align: center;
-	}
+#nav a {
+	margin: 0 0.5em 0 0.5em;
+}
 
-/* Title */
+#hero {
+	border-radius: 0.5em;
+	line-height: 2em;
+	margin: 2em 0 2em 0;
+	padding: 3em 2em 3em 2em;
+}
 
-	#title {
-		display: none;
-	}
+#hero h2 {
+	font-size: 2em;
+	margin-bottom: 0.75em;
+}
 
-/* Nav */
+#hero p {
+	font-size: 1.25em;
+	margin-bottom: 1.5em;
+}
 
-	#nav a {
-		margin: 0 0.5em 0 0.5em;
-	}
-
-/* Hero */
-
-	#hero {
-		border-radius: 0.5em;
-		line-height: 2em;
-		margin: 2em 0 2em 0;
-		padding: 3em 2em 3em 2em;
-	}
-
-	#hero h2 {
-		font-size: 2em;
-		margin-bottom: 0.75em;
-	}
-
-	#hero p {
-		font-size: 1.25em;
-		margin-bottom: 1.5em;
-	}
-
-/* Footer */
-
-	#footer {
-		margin-bottom: 2em;
-	}
-
-/* Overlays */
-
-	#leftPanelButton .toggle,
-	#rightPanelButton .toggle {
-		display: block;
-		background: none;
-		height: 44px;
-		line-height: 44px;
-	}
-
-	#leftPanelButton .toggle {
-		text-align: left;
-		padding-left: 20px;
-	}
-
-	#rightPanelButton .toggle {
-		text-align: right;
-		padding-right: 20px;
-	}
-
-	#titleBar {
-		background: rgba(71,86,91,0.9);
-		text-align: center;
-		line-height: 44px;
-		color: #fff;
-	}
+#footer {
+	margin-bottom: 2em;
+}
