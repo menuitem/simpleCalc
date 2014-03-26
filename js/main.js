@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 //clear event
 	clearB.addEventListener('click', function(e){
 		e.preventDefault();
-			input1.value = input2.value = message.textContent = score.value = null;
+			input1.value = input2.value = message.textContent = score.value = selectA.textContent = null;
 	});
 //add event
 	addB.addEventListener('click', function(e){
@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		parseInputs();
 		try{
 				score.value = (Calculator.calcAdd(n1,n2));
+				selectA.textContent = "+"
 	  }
 	  catch (e){
 	   	message.textContent = (e.message);
@@ -61,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		parseInputs();
 		try{
 				score.value = (Calculator.calcSubtract(n1,n2));
+				selectA.textContent = "-"
 	  }
 	  catch (e){
 	   	message.textContent = (e.message);
@@ -73,6 +75,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		parseInputs();
 		try{
 				score.value = (Calculator.calcMultiply(n1,n2));
+				selectA.textContent = "*"
 	  }
 	  catch (e){
 	   	message.textContent = (e.message);
@@ -85,6 +88,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		parseInputs();
 		try{
 				score.value = (Calculator.calcDivide(n1,n2));
+				selectA.textContent = "/"
 	  }
 	  catch (e){
 	   	message.textContent = (e.message);
